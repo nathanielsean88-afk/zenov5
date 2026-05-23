@@ -9,12 +9,12 @@ const PORT = process.env.PORT || 3000;
 //   KONFIGURASI BAYAR.GG
 //   Ganti dengan API Key kamu dari bayar.gg
 // =============================================
-const BAYARGG_API_KEY = process.env.BAYARGG_API_KEY || 'ISI_API_KEY_BAYARGG_KAMU_DISINI';
+const BAYARGG_API_KEY = process.env.BAYARGG_API_KEY || '';
 const BAYARGG_BASE_URL = 'https://www.bayar.gg/api';
 
 // URL website kamu (untuk redirect & callback setelah bayar)
 // Contoh: 'https://zenostore.com' atau 'http://localhost:3000'
-const WEBSITE_URL = process.env.WEBSITE_URL || 'http://localhost:3000';
+const WEBSITE_URL = process.env.WEBSITE_URL || 'https://zenov5-production.up.railway.app';
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
