@@ -23,7 +23,10 @@ function saveOrders(o)   { fs.writeFileSync(ORDERS_FILE, JSON.stringify(o, null,
 // Produk data + link download (edit sesuai produk kamu!)
 const PRODUCTS = [
     { id:1,  cat:'plugin', catLabel:'Plugin',  name:'Items Adder',  desc:'✨ItemsAdder⭐Emotes, Mobs, Items, Armors, HUD, GUI, Emojis, Blocks, Wings, Hats, Liquids',  price:'Rp 20.000', rawPrice:20000, img:'images/product-1.jpg', badge:'HOT',  downloadLink:'https://drive.google.com/file/d/1h06htqdhf3AUb_vcFwHsHbiIWRwY968b/view?usp=drivesdk' },
-    { id:2,  cat:'plugin', catLabel:'Plugin',  name:'Anti-Cheat Pro',        desc:'Sistem anti-cheat canggih, lindungi server dari cheater.',    price:'Rp 35.000', rawPrice:35000, img:'images/product-2.jpg', badge:'',     downloadLink:'https://drive.google.com/your-link-2' },
+    { id:2,  cat:'plugin', catLabel:'Plugin',  name:'MMO Items',        desc:'MMO ITEMS ⚔️
+Custom Skill item
+
+Version - 1.8 - 1.21.11.',    price:'Rp 15.000', rawPrice:15000, img:'images/product-2.jpg', badge:'HOT',     downloadLink:'https://drive.google.com/file/d/14s1nO2LNrm80DxphuE8R9MIDLGKdIQ4P/view?usp=drivesdk' },
     { id:3,  cat:'plugin', catLabel:'Plugin',  name:'Factions Ultimate',     desc:'Plugin factions lengkap dengan war, territory, economy.',     price:'Rp 45.000', rawPrice:45000, img:'images/product-3.jpg', badge:'NEW',  downloadLink:'https://drive.google.com/your-link-3' },
     { id:4,  cat:'plugin', catLabel:'Plugin',  name:'Economy Plus',          desc:'Sistem ekonomi dengan fitur bank, pajak, dan market.',        price:'Rp 25.000', rawPrice:25000, img:'images/product-4.jpg', badge:'',     downloadLink:'https://drive.google.com/your-link-4' },
     { id:5,  cat:'asset',  catLabel:'Asset',   name:'Resource Pack Premium', desc:'Pack texture HD 128x128 dengan visual menakjubkan.',          price:'Rp 15.000', rawPrice:15000, img:'images/product-5.jpg', badge:'',     downloadLink:'https://drive.google.com/your-link-5' },
